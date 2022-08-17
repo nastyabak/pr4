@@ -1,0 +1,151 @@
+body {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background: #0B0A0A;
+}
+
+h1, h2, h3, h4, p, a {
+  font-weight: 400;
+}
+
+.section {
+  background: url('../img/backg.png') no-repeat center top / cover;
+  background-size: 100% 100%;
+}
+
+.container {
+  margin-left: 95px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 1218px;
+}
+
+.left-side {
+  background: url('../img/man.png') no-repeat center top / cover;
+  background-size: 100% 100%;
+  width: 622px;
+}
+
+.review {
+  background: url('../img/Rectangle 3.png') no-repeat center top / cover;
+  background-size: 100% 100%;
+  padding: 40px 61px 40px 42px;
+  position: relative;
+  top: 50%;
+  display: block;
+  width: 254px;
+}
+
+.review h3, p {
+  margin: 0;
+  width: 254px;
+}
+
+.review h3 {
+  font-size: 24px;
+  line-height: 135%;
+  color: #F7F7F7;
+}
+
+.review p {
+  font-size: 15px;
+  line-height: 140%;
+  color: #D9D9D9;
+  width: 254px;
+}
+
+.right-side {
+  margin: 245px 0px 70px 0px;
+}
+
+.right-side h1 {
+  font-size: 27px;
+  line-height: 85%;
+  color: #CEB691;
+  margin: 0;
+}
+
+.right-side h2 {
+  font-size: 42px;
+  line-height: 130%;
+  color: #F7F7F7;
+  margin: 37px 0px 47px 0px;
+  width: 581px;
+}
+
+.right-side p {
+  font-size: 17px;
+  line-height: 160%;
+  margin: 0px 0px 47px 0px;
+  width: 481px;
+}
+
+.offer {
+  display: flex;
+  width: 520px;
+  flex-direction: row;
+  margin: 0;
+  align-items: center;
+}
+
+.offer-btn {
+  background: #C3A473;
+  border-radius: 7px;
+  display: block;
+  padding: 17px 47px;
+}
+
+.offer-btn a {
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 135%;
+  color: #080707;
+  margin: 0 auto;
+}
+
+.offer-btn:hover {
+  background: #d9bb8b;
+  transition: all 0.5s ease;
+}
+
+.offer h3 {
+  font-size: 15px;
+  line-height: 140%;
+  color: #BFBFBF;
+  width: 288px;
+  margin-left: 17px;
+}
+
+.navbar {
+  margin-top: 147px;
+}
+
+.navbar-nav {
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+}
+
+.navbar-nav li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 135%;
+  color: #F7F7F7;
+  margin: 0px 47px 0px 10px;
+}
+
+.navbar-nav a:hover {
+  color: #fcd0a9;
+}
+
